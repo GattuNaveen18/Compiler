@@ -1,0 +1,10 @@
+.stopwatch{
+    color: whitesmoke;
+    margin-top: -8px;
+    font-size: 20px;
+}
+.notstopwatch{
+    color: black;
+    margin-top: -10px;
+    font-size: 20px;
+}

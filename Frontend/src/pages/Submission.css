@@ -1,0 +1,29 @@
+/* .submission{
+    text-align: center;
+    align-items: center;
+}
+
+.emoji{
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 200px;
+} */
+.stext{
+    color: wheat;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.submission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .emoji {
+    border-radius: 50%;
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  

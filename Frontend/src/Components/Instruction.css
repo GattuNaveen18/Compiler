@@ -1,0 +1,26 @@
+.instruction-container{
+    background-color: #f2f2f2;
+}
+
+.exam-instructions {
+    border: 2px solid black; /* Border around the component */
+    padding: 20px; /* Padding inside the component */
+}
+
+.instruction {
+    margin-bottom: 20px; /* Spacing between instructions */
+}
+
+.instruction h3 {
+    margin-bottom: 10px; /* Spacing below instruction headings */
+}
+.startbtn{
+    width: 100px;
+    height: 35px;
+    margin-left: 1200px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.startbtn:hover{
+    background-color: #228b22; ;
+}

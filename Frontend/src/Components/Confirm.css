@@ -1,0 +1,54 @@
+/* .confirm{
+    height: 100px;
+    width: 500px;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-top: -100px;
+
+}
+*/
+
+.confirm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:  #808080;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 9999; 
+    width: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+.confirm input[type="checkbox"] {
+    position: absolute;
+    top: -10px; 
+    left: -30px; 
+}
+
+.yesbtn{
+    height: 30px;
+    width: 100px;
+}
+.yesbtn:hover{
+    background-color: #228b22;;
+}
+
+.nobtn{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+}
+.nobtn:hover{
+    background-color: rgb(243, 93, 93);
+}
+
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+} 

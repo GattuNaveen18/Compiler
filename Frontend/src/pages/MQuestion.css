@@ -1,0 +1,45 @@
+/* MQuestion.css */
+
+/* Style for the container */
+.mQuestion {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+
+  }
+  
+  /* Style for the question */
+  .question {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .question label {
+    font-weight: bold;
+    display: block;
+    margin-top: 23px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .question input[type="text-area"] {
+    width: 100%;
+    height: 100px;
+    padding: 1px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for the radio options */
+  .radio {
+    margin-bottom: 10px;
+  }
+  
+  .radio label {
+    margin-right: 10px;
+  }
+  
+  .radio input[type="radio"] {
+    margin-right: 5px;
+  }
+  
